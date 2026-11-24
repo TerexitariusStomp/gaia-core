@@ -1,0 +1,23 @@
+{
+  "lib/eas-contracts": {
+    "tag": {
+      "name": "v1.4.0",
+      "rev": "d223e17208aa110dd5ec694d77324a2321d93201"
+    }
+  },
+  "lib/geonft-registry-monorepo": {
+    "rev": "791bbbefc7a953eb036db28c6622425cb5b47e10"
+  },
+  "lib/safe-smart-account": {
+    "tag": {
+      "name": "v1.4.1-3",
+      "rev": "21dc82410445637820f600c7399a804ad55841d5"
+    }
+  },
+  "lib/solidity-bytes-utils": {
+    "tag": {
+      "name": "v0.8.4",
+      "rev": "f4413cd6137b78403e3a1156bee6aceab46b46fa"
+    }
+  }
+}

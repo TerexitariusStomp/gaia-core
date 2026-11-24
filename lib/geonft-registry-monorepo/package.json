@@ -1,0 +1,34 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "keywords": [
+    "ethereum",
+    "aureliajs",
+    "workspaces",
+    "yarn"
+  ],
+  "private": true,
+  "workspaces": ["packages/dapp", "packages/hardhat-ts", "packages/subgraph"],
+  "scripts": {
+    "dapp:build": "yarn workspace dapp build",
+    "dapp:start": "yarn workspace dapp start",
+    "dapp:build:dev": "yarn workspace dapp build:dev",
+    "dapp:analyze": "yarn workspace dapp analyze",
+    "dapp:test": "yarn workspace dapp test",
+    "dapp:lint": "yarn workspace dapp lint",
+    "hardhat:clean": "yarn workspace hardhat-ts clean",
+    "hardhat:compile": "yarn workspace hardhat-ts compile",
+    "hardhat:watch": "yarn workspace hardhat-ts watch",
+    "hardhat:localnode": "yarn workspace hardhat-ts localnode",
+    "hardhat:test": "yarn workspace hardhat-ts test",
+    "hardhat:coverage": "yarn workspace hardhat-ts coverage",
+    "hardhat:deployalfa": "yarn workspace hardhat-ts deployalfa",
+    "hardhat:deploycelo": "yarn workspace hardhat-ts deploycelo",
+    "hardhat:accounts": "yarn workspace hardhat-ts accounts",
+    "hardhat:lint": "yarn workspace hardhat-ts lint"
+  },
+  "devDependencies": {
+    "hardhat": "^2.9.3",
+    "ts-node": "^10.7.0"
+  }
+}
